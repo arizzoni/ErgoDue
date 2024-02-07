@@ -1,0 +1,359 @@
+\documentclass[10pt]{report}
+
+\newcommand{\theauthor}{Alessandro Rizzoni}
+\newcommand{\thedoctitle}{Python\TeX\ Examples}
+\newcommand{\theversion}{0.1}
+
+% Code Execution and Typesetting
+\usepackage[%
+    pygopt={
+        style=bw,
+        texcomments=true,
+        mathescape=true
+        },
+    runall=true,
+    rerun=always,
+    upquote=true
+    ]{pythontex}
+\setpythontexfv{%
+    frame=single,
+    framerule=0.8pt,
+    numbers=left,
+    numbersep=1pt}
+\renewcommand{\FancyVerbFormatLine}[1]{\small #1}
+\renewcommand{\theFancyVerbLine}{%
+    \footnotesize\rmfamily{\arabic{FancyVerbLine}}
+    }
+
+% Page Layout
+\usepackage[%
+    letterpaper, % 8.5" x 11" paper size
+    margin=1in
+    ]{geometry}
+
+% Mathematics
+\usepackage{mathtools} % Mathematics typesetting
+\usepackage[% Mathematics with modern fonts
+    warnings-off={% Turn off default always-on warnings
+        mathtools-colon,
+        mathtools-overbracket
+        }
+    ]{unicode-math} 
+\usepackage{lualatex-math} % Math fixes for LuaLaTeX
+\usepackage{siunitx} % Handy typesetting of units
+
+% Font
+\usepackage{fontspec} % Modern .ttc, .ttf, and .otf fonts
+\setmathfont{STIXTwoMath-Regular.otf}
+\setmainfont{STIXTwoText-Regular.otf}[%
+    Ligatures=TeX,
+    ItalicFont=STIXTwoText-Italic.otf,
+    BoldFont=STIXTwoText-Bold.otf,
+    BoldItalicFont=STIXTwoText-BoldItalic.otf,
+    SmallCapsFeatures={Numbers=OldStyle}
+    ]
+\setsansfont{Inter}[%
+    Ligatures=TeX,
+    Scale=MatchLowercase
+    ]
+\setmonofont{Courier Prime}[%
+    Ligatures=TeX,
+    Scale=MatchLowercase
+    ]
+
+% Localization
+\usepackage[% American English localization
+    USenglish
+    ]{babel} 
+\usepackage[% Localized context-sensitive quotes
+    autostyle=true
+    ]{csquotes}
+\usepackage[text = DRAFT]{draftwatermark} % Watermarks
+
+% Headers
+\usepackage{fancyhdr}
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \renewcommand{\headrulewidth}{0.5pt}
+    \renewcommand{\footrulewidth}{0pt}
+    \fancyhead[L]{\if\thechapter0\else\thechapter\fi}
+    \fancyhead[R]{\thedoctitle}
+    \fancyfoot[L]{\small VERSION \theversion}
+    \fancyfoot[C]{\small \thepage}
+}
+
+% Table of Contents Formatting
+% \usepackage{titletoc}
+
+% Chapter and Section Title Formatting
+\usepackage{titlesec}
+\titleformat{\chapter}
+    {}
+    {\LARGE\textbf{\thechapter}}{1ex}{\LARGE}
+\titleformat{\section}
+    {}
+    {\Large\thesection}{1ex}{\Large}
+\titleformat{\subsection}
+    {}
+    {\large\thesubsection}{1ex}{\large}
+\titleformat{\subsubsection}
+    {}
+    {\normalsize\thesubsubsection}{1ex}{}
+
+\newenvironment{revisionhistory}
+    {\setcounter{secnumdepth}{0}}
+    {\setcounter{secnumdepth}{2}}
+    \pagestyle{plain}
+    \newcommand{\blankpage}{
+        \vspace*{\fill}
+            \hfill This page intentionally left blank. \hfill
+        \vspace*{\fill}
+}
+
+% Hyperlinks
+\usepackage{hyperref} % Hyperlinks
+
+% Arrays, Tables, and Lists
+\usepackage{enumitem}
+\setlist[enumerate]{label*=\arabic*.,ref=\arabic*}
+\usepackage{tabularray} % Tables and Arrays
+
+% Graphics
+\usepackage{graphicx} % External graphics
+\graphicspath{{figures/}{./}} % Set base path for graphics
+\usepackage{blox} % System block diagrams
+\usepackage{tikz-timing} % Timing diagram graphics
+\usepackage[siunitx]{circuitikz} % Electrical circuit graphics
+\ctikzloadstyle{romano} % Better styling for CircuiTikz
+\tikzset{romano circuit style} % Apply the style
+
+% Get font sizes
+\makeatletter
+\tiny\xdef\thetinysize{\f@size}
+\scriptsize\xdef\thescriptsize{\f@size}
+\footnotesize\xdef\thefootnotesize{\f@size}
+\small\xdef\thesmallsize{\f@size}
+\normalsize\xdef\thenormalsize{\f@size}
+\large\xdef\thelargesize{\f@size}
+\Large\xdef\theLargesize{\f@size}
+\LARGE\xdef\theLARGEsize{\f@size}
+\huge\xdef\thehugesize{\f@size}
+\Huge\xdef\theHugesize{\f@size}
+\makeatother
+
+% Define Python Context
+\setpythontexcontext{%
+    textwidth=\the\textwidth,
+    textheight=\the\textheight,
+    font=\expandafter\string\the\font,
+    tiny=\thetinysize,
+    scriptsize=\thescriptsize,
+    footnotesize=\thefootnotesize,
+    small=\thesmallsize,
+    normalsize=\thenormalsize,
+    large=\thelargesize,
+    Large=\theLargesize,
+    LARGE=\theLARGEsize,
+    huge=\thehugesize,
+    Huge=\theHugesize
+}
+
+% Python Environment Setup
+\begin{pythontexcustomcode}{py}
+
+import numpy as np # Python numerical computing library
+
+from cycler import cycler # Property cycler utilities
+from matplotlib import pyplot as plt # Pyplot API
+from matplotlib import rcParams as rc # Matplotlib plot styling
+from matplotlib.ticker import EngFormatter # Plot tick formatting
+
+# Convert from points to inches
+text_width = float(pytex.context['textwidth'][:-2]) / 72.27
+text_height = float(pytex.context['textheight'][:-2]) / 72.27
+
+# Determine font sizes based on LaTeX context
+tiny = pytex.context['tiny']
+script_size = pytex.context['scriptsize']
+footnote_size = pytex.context['footnotesize']
+small = pytex.context['small']
+normal_size = pytex.context['normalsize']
+large = pytex.context['large']
+llarge = pytex.context['Large']
+lllarge = pytex.context['LARGE']
+huge = pytex.context['huge']
+hhuge = pytex.context['Huge']
+
+# figure settings
+figure_width = text_width
+figure_height = text_height/3
+cmap = plt.get_cmap('grey') # Select colormap
+axis_dimensions = (0, 0, 1, 1) # 0 lr margin, 0 tb margin, 100% figure size
+num_plot_styles = 4 # number of colors for plotting
+
+# Initialize empty lists for plot colors and styles
+plot_colors = []
+line_styles = []
+for i in range(num_plot_styles): # Populate the color and style lists
+    plot_colors.append(cmap(1.0 * i/num_plot_styles))
+    line_styles.append((0, (i+1, i)))
+
+# Define the main cycler with the two component lists 
+#style_cycler = cycler(color=plot_colors, linestyle=line_styles)
+style_cycler = cycler(linestyle=line_styles)
+
+# Document-wide Matplotlib Configuration
+rc.update({
+        'backend': 'pgf',
+        'lines.linewidth': 1,
+        'font.family': 'serif',
+        'font.size': footnote_size,
+        'text.usetex': True,
+        'axes.prop_cycle': style_cycler,
+        'axes.labelsize': footnote_size,
+        'axes.linewidth': 0.8,
+        'xtick.direction': 'in',
+        'xtick.top': True,
+        'xtick.bottom': True,
+        'xtick.minor.visible': True,
+        'ytick.direction': 'in',
+        'ytick.left': True,
+        'ytick.right': True,
+        'ytick.minor.visible': True,
+        'legend.fontsize': footnote_size,
+        'legend.fancybox': False,
+        'figure.figsize': (figure_width, figure_height),
+        'figure.dpi': 600,
+	'figure.constrained_layout.use': True,
+        'figure.constrained_layout.hspace': 0,
+        'figure.constrained_layout.wspace': 0,
+        'savefig.format': 'pgf',
+        'savefig.bbox': 'tight',
+        'savefig.transparent': True,
+        'pgf.rcfonts': False,
+	'pgf.preamble': '\n'.join([
+                r'\usepackage{fontspec}',
+                r'\usepackage{mathtools}',
+                r'\usepackage[warnings-off={mathtools-colon, mathtools-overbracket}]{unicode-math}',
+                r'\usepackage{lualatex-math}',
+                r'\setmainfont{STIXTwoText-Regular.otf}[Ligatures=TeX, ItalicFont=STIXTwoText-Italic.otf, BoldFont=STIXTwoText-Bold.otf, BoldItalicFont=STIXTwoText-BoldItalic.otf, SmallCapsFeatures={Numbers=OldStyle}]',
+                r'\setmathfont{STIXTwoMath-Regular.otf}',
+                r'\usepackage{siunitx}',
+		r'\usepackage[USenglish]{babel}',
+	]),
+        'pgf.texsystem': 'lualatex', # default is xetex
+})
+
+def eng_format(arg: str):
+    return EngFormatter(unit=arg, sep=' ')
+
+\end{pythontexcustomcode}
+
+\begin{document}
+
+\author{\sffamily \theauthor}
+\title{\sffamily \thedoctitle}
+\date{\sffamily \today}
+\maketitle
+
+\tableofcontents
+
+\pagebreak
+
+\blankpage
+
+\pagebreak
+
+\begin{revisionhistory}
+
+\section{Revision History}
+
+\end{revisionhistory}
+
+\pagebreak
+
+\blankpage
+
+\pagebreak
+
+\chapter{Introduction}
+
+\section{Purpose}
+
+The ErgoDUE is a split ortholinear mechanical keyboard with USB-C 3.1 data hub functionality. The design is based on the open-source ErgoDOX project, which can be found at \url{https://www.ergodox.io/}. The intention of the ErgoDUE project is to refresh the electronic design of the keyboard and add USB-C hub functionality while maintaining the same form factor. The mechanical design of the original ErgoDOX is largely unchanged. 
+
+\section{Product Scope}
+
+\section{References}
+
+\chapter{Requirements}
+
+\section{Safety}
+
+\section{Keyboard}
+
+\subsection{Keyswitches}
+
+\subsection{LED Lighting}
+
+\section{Power}
+
+\section{Microcontroller}
+
+\section{USB Hub}
+
+To minimize complexity, the USB hub will initially only be able to sink \qty{3}{\ampere} at \qty{5}{\volt} from the USB host, but the system may expand to include better USB PD support at a later time.
+
+\begin{enumerate}
+    \item The ErgoDue design shall be adapted from the open-source ErgoDox design.
+    \begin{enumerate}
+        \item Electrical Design
+        \begin{enumerate}
+            \item Keyboard
+            \item USB Hub
+        \end{enumerate}
+    \end{enumerate}
+\end{enumerate}
+\subsection{USB Controller}
+
+\subsection{Upstream Port}
+
+\subsection{Downstream Ports}
+
+\chapter{Architecture}
+
+The software and electronics rearchitecture consists of several changes. The main change is the addition of three USB-C ports per half of the keyboard. with both halves connected, the keyboard also has 5 additional low power USB-C ports for data transfer or charging. The changes can be summarized as follows. First, the microcontroller is changed to the RP2040. The RP2040 is more powerful than the ATTINY-series microcontroller used in the original, and is now readily available in large and small quantities. The RP2040 offers many attractive features, such as multiple independent serial interface controllers as well as the highest clock speed available for the price. The RP2040 interfaces with an external USB hub controller that handles the USB data protocol, and with each external USB-C port. In addition to the USB hub function, the RP2040 is also responsible for managing the keyswitches and LED backlighting for the keyboard. The microcontroller lacks the required number of GPIO pins, so an I2C GPIO expander is used to poll the keyswitch circuits. The colored LEDs are controlled using dedicated I2C LED matrix driver ICs for each color LED.
+
+\section{Interface}
+
+\section{Keyboard}
+
+\section{USB Hub}
+
+\section{Power Tree}
+
+\chapter{Circuit Design}
+
+\section{Power}
+
+\section{Keyboard}
+
+\subsection{Keyswitches}
+
+\subsection{LED Lighting}
+
+\section{Microcontroller}
+
+\section{USB Hub}
+
+\subsection{USB Controller}
+
+\subsection{Upstream Port}
+
+\subsection{Downstream Ports}
+
+\chapter{PCB Design}
+
+\chapter{Verification}
+
+\end{document}

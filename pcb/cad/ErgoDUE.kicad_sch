@@ -1,0 +1,190 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 4c935f39-219c-4006-ade5-f2ff1277cb0d)
+
+  (paper "USLedger")
+
+  (title_block
+    (title "ErgoDUE")
+    (date "2024-01-15")
+    (rev "V0.1")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 495.3 88.9) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 159f2f83-e5c1-4013-aa30-d6dba23ef6dc)
+    (property "Sheetname" "USB Controller" (at 495.3 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "usbcontroller.kicad_sch" (at 495.3 114.8846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ErgoDUE"
+        (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d" (page "11"))
+      )
+    )
+  )
+
+  (sheet (at 444.5 165.1) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1e2ebcdb-84ee-42ca-a24b-33ebaa706478)
+    (property "Sheetname" "USB Downstream 1" (at 444.5 164.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "downstream1.kicad_sch" (at 444.5 191.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ErgoDUE"
+        (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 444.5 50.8) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5c7bcf05-7440-4a13-96e5-08c31931c60a)
+    (property "Sheetname" "Keyswitch Matrix" (at 444.5 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "keyswitchmatrix.kicad_sch" (at 444.5 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ErgoDUE"
+        (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 444.5 88.9) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6e2c7544-ed78-48bf-a3eb-79c88927a6fd)
+    (property "Sheetname" "LED Drivers" (at 444.5 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "leddrivers.kicad_sch" (at 444.5 114.8846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ErgoDUE"
+        (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 444.5 241.3) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8365a6fe-1546-443a-ae02-88338a53945b)
+    (property "Sheetname" "USB Downstream 3" (at 444.5 240.5884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "downstream3.kicad_sch" (at 444.5 267.2846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ErgoDUE"
+        (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 444.5 127) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9be609e7-2933-45ad-a31c-e4452b8c8f27)
+    (property "Sheetname" "USB Upstream" (at 444.5 126.2884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "upstream.kicad_sch" (at 444.5 152.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ErgoDUE"
+        (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 495.3 50.8) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid aaa11198-662f-4a05-b962-a7349bcaec47)
+    (property "Sheetname" "Microcontroller" (at 495.3 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "microcontroller.kicad_sch" (at 495.3 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ErgoDUE"
+        (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d" (page "10"))
+      )
+    )
+  )
+
+  (sheet (at 444.5 12.7) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c0c0c6c9-5635-4793-8fe0-f97f9229923b)
+    (property "Sheetname" "LED Matrix" (at 444.5 11.9884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ledmatrix.kicad_sch" (at 444.5 38.6846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ErgoDUE"
+        (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 444.5 203.2) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dd617d56-e4eb-4bf5-99f8-a99b1ceae8b8)
+    (property "Sheetname" "USB Downstream 2" (at 444.5 202.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "downstream2.kicad_sch" (at 444.5 229.1846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ErgoDUE"
+        (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 495.3 12.7) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fe005776-e742-497c-b371-7d89244ae6dd)
+    (property "Sheetname" "Power" (at 495.3 11.9884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 495.3 38.6846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ErgoDUE"
+        (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d" (page "9"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

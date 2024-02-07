@@ -1,0 +1,113 @@
+=>PYTHONTEX#CC:py:begin#none#none#0#code#textwidth=469.75502pt, textheight=650.43001pt, font=\TU/STIXTwoText-Regular.otf(0)/m/n/24.88, tiny=5, scriptsize=7, footnotesize=8, small=9, normalsize=10, large=12, Large=14.4, LARGE=17.28, huge=20.74, Huge=24.88####162#
+
+import numpy as np # Python numerical computing library
+
+from cycler import cycler # Property cycler utilities
+from matplotlib import pyplot as plt # Pyplot API
+from matplotlib import rcParams as rc # Matplotlib plot styling
+from matplotlib.ticker import EngFormatter # Plot tick formatting
+
+# Convert from points to inches
+text_width = float(pytex.context['textwidth'][:-2]) / 72.27
+text_height = float(pytex.context['textheight'][:-2]) / 72.27
+
+# Determine font sizes based on LaTeX context
+tiny = pytex.context['tiny']
+script_size = pytex.context['scriptsize']
+footnote_size = pytex.context['footnotesize']
+small = pytex.context['small']
+normal_size = pytex.context['normalsize']
+large = pytex.context['large']
+llarge = pytex.context['Large']
+lllarge = pytex.context['LARGE']
+huge = pytex.context['huge']
+hhuge = pytex.context['Huge']
+
+# figure settings
+figure_width = text_width
+figure_height = text_height/3
+cmap = plt.get_cmap('grey') # Select colormap
+axis_dimensions = (0, 0, 1, 1) # 0 lr margin, 0 tb margin, 100% figure size
+num_plot_styles = 4 # number of colors for plotting
+
+# Initialize empty lists for plot colors and styles
+plot_colors = []
+line_styles = []
+for i in range(num_plot_styles): # Populate the color and style lists
+    plot_colors.append(cmap(1.0 * i/num_plot_styles))
+    line_styles.append((0, (i+1, i)))
+
+# Define the main cycler with the two component lists
+#style_cycler = cycler(color=plot_colors, linestyle=line_styles)
+style_cycler = cycler(linestyle=line_styles)
+
+# Document-wide Matplotlib Configuration
+rc.update({
+        'backend': 'pgf',
+        'lines.linewidth': 1,
+        'font.family': 'serif',
+        'font.size': footnote_size,
+        'text.usetex': True,
+        'axes.prop_cycle': style_cycler,
+        'axes.labelsize': footnote_size,
+        'axes.linewidth': 0.8,
+        'xtick.direction': 'in',
+        'xtick.top': True,
+        'xtick.bottom': True,
+        'xtick.minor.visible': True,
+        'ytick.direction': 'in',
+        'ytick.left': True,
+        'ytick.right': True,
+        'ytick.minor.visible': True,
+        'legend.fontsize': footnote_size,
+        'legend.fancybox': False,
+        'figure.figsize': (figure_width, figure_height),
+        'figure.dpi': 600,
+	'figure.constrained_layout.use': True,
+        'figure.constrained_layout.hspace': 0,
+        'figure.constrained_layout.wspace': 0,
+        'savefig.format': 'pgf',
+        'savefig.bbox': 'tight',
+        'savefig.transparent': True,
+        'pgf.rcfonts': False,
+	'pgf.preamble': '\n'.join([
+                r'\usepackage{fontspec}',
+                r'\usepackage{mathtools}',
+                r'\usepackage[warnings-off={mathtools-colon, mathtools-overbracket}]{unicode-math}',
+                r'\usepackage{lualatex-math}',
+                r'\setmainfont{STIXTwoText-Regular.otf}[Ligatures=TeX, ItalicFont=STIXTwoText-Italic.otf, BoldFont=STIXTwoText-Bold.otf, BoldItalicFont=STIXTwoText-BoldItalic.otf, SmallCapsFeatures={Numbers=OldStyle}]',
+                r'\setmathfont{STIXTwoMath-Regular.otf}',
+                r'\usepackage{siunitx}',
+		r'\usepackage[USenglish]{babel}',
+	]),
+        'pgf.texsystem': 'lualatex', # default is xetex
+})
+
+def eng_format(arg: str):
+    return EngFormatter(unit=arg, sep=' ')
+
+=>PYTHONTEX:SETTINGS#
+version=0.18
+outputdir=pythontex-files-designdoc
+workingdir=.
+workingdirset=false
+gobble=none
+rerun=always
+hashdependencies=default
+makestderr=false
+stderrfilename=full
+keeptemps=none
+pyfuture=default
+pyconfuture=none
+pygments=true
+pygglobal=:GLOBAL||style=bw, texcomments=true, mathescape=true
+fvextfile=-1
+pyconbanner=none
+pyconfilename=stdin
+depythontex=false
+pygfamily=py|python3|
+pygfamily=pycon|pycon|
+pygfamily=sympy|python3|
+pygfamily=sympycon|pycon|
+pygfamily=pylab|python3|
+pygfamily=pylabcon|pycon|
