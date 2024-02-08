@@ -8,6 +8,10 @@
     (title "ErgoDUE")
     (date "2024-01-15")
     (rev "V0.1")
+    (company "Alessandro Rizzoni")
+    (comment 1 "SCHEMATIC")
+    (comment 2 "DRAFT")
+    (comment 3 "AIR")
   )
 
   (lib_symbols
