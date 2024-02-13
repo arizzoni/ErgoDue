@@ -751,7 +751,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "/home/air/Projects/kicad/kicad-templates/US_Ledger_Template_Rev_A.kicad_wks",
+    "page_layout_descr_file": "/home/air/Projects/kicad-templates/US_Ledger_Template_Rev_A.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -767,8 +767,16 @@
       ""
     ],
     [
-      "c0c0c6c9-5635-4793-8fe0-f97f9229923b",
-      "LED Matrix"
+      "aaa11198-662f-4a05-b962-a7349bcaec47",
+      "Microcontroller"
+    ],
+    [
+      "159f2f83-e5c1-4013-aa30-d6dba23ef6dc",
+      "USB Controller"
+    ],
+    [
+      "fe005776-e742-497c-b371-7d89244ae6dd",
+      "Power"
     ],
     [
       "5c7bcf05-7440-4a13-96e5-08c31931c60a",
@@ -777,6 +785,10 @@
     [
       "6e2c7544-ed78-48bf-a3eb-79c88927a6fd",
       "LED Drivers"
+    ],
+    [
+      "c0c0c6c9-5635-4793-8fe0-f97f9229923b",
+      "LED Matrix"
     ],
     [
       "9be609e7-2933-45ad-a31c-e4452b8c8f27",
@@ -793,18 +805,6 @@
     [
       "8365a6fe-1546-443a-ae02-88338a53945b",
       "USB Downstream 3"
-    ],
-    [
-      "fe005776-e742-497c-b371-7d89244ae6dd",
-      "Power"
-    ],
-    [
-      "aaa11198-662f-4a05-b962-a7349bcaec47",
-      "Microcontroller"
-    ],
-    [
-      "159f2f83-e5c1-4013-aa30-d6dba23ef6dc",
-      "USB Controller"
     ]
   ],
   "text_variables": {}

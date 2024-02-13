@@ -2371,7 +2371,7 @@
   (symbol (lib_id "power:+3V3") (at 53.34 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01f32a64-e124-4765-8d1d-6882784d792c)
-    (property "Reference" "#PWR0301" (at 53.34 144.78 0)
+    (property "Reference" "#PWR0501" (at 53.34 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 53.34 135.89 0)
@@ -2387,7 +2387,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "#PWR0301") (unit 1)
+          (reference "#PWR0501") (unit 1)
         )
       )
     )
@@ -2396,7 +2396,7 @@
   (symbol (lib_id "Device:D") (at 339.09 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05e4ecfd-426e-431e-b950-ce51dc422ad5)
-    (property "Reference" "D334" (at 339.09 156.21 0)
+    (property "Reference" "D534" (at 339.09 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 339.09 158.75 0)
@@ -2419,7 +2419,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D334") (unit 1)
+          (reference "D534") (unit 1)
         )
       )
     )
@@ -2428,7 +2428,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 364.49 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 080de2ac-e806-4fae-a2a2-23c564a0af62)
-    (property "Reference" "SW342" (at 364.49 144.78 0)
+    (property "Reference" "SW542" (at 364.49 144.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 364.49 147.32 0)
@@ -2445,7 +2445,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW342") (unit 1)
+          (reference "SW542") (unit 1)
         )
       )
     )
@@ -2454,7 +2454,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 237.49 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 094ea699-1788-4a88-8e6c-5484a42a2aad)
-    (property "Reference" "SW306" (at 237.49 43.18 0)
+    (property "Reference" "SW506" (at 237.49 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 237.49 45.72 0)
@@ -2471,7 +2471,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW306") (unit 1)
+          (reference "SW506") (unit 1)
         )
       )
     )
@@ -2480,7 +2480,7 @@
   (symbol (lib_id "Device:R_US") (at 351.79 173.99 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 11255695-f9fa-4991-9ee1-b4a565d98e09)
-    (property "Reference" "R309" (at 354.33 172.72 0)
+    (property "Reference" "R509" (at 354.33 172.72 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.2k" (at 354.33 175.26 0)
@@ -2497,7 +2497,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "R309") (unit 1)
+          (reference "R509") (unit 1)
         )
       )
     )
@@ -2506,7 +2506,7 @@
   (symbol (lib_id "Device:D") (at 313.69 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14b3625e-2150-4028-bb7c-9184252c6d8d)
-    (property "Reference" "D326" (at 313.69 105.41 0)
+    (property "Reference" "D526" (at 313.69 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 313.69 107.95 0)
@@ -2529,7 +2529,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D326") (unit 1)
+          (reference "D526") (unit 1)
         )
       )
     )
@@ -2538,7 +2538,7 @@
   (symbol (lib_id "Device:D") (at 262.89 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1713e88d-2b92-4322-a197-67ba5ecc6faf)
-    (property "Reference" "D315" (at 262.89 130.81 0)
+    (property "Reference" "D515" (at 262.89 130.81 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 262.89 133.35 0)
@@ -2561,7 +2561,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D315") (unit 1)
+          (reference "D515") (unit 1)
         )
       )
     )
@@ -2570,7 +2570,7 @@
   (symbol (lib_id "Device:R_US") (at 66.04 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 185b3468-ebbc-489d-9802-60cdb8477659)
-    (property "Reference" "R302" (at 68.58 144.78 0)
+    (property "Reference" "R502" (at 68.58 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 68.58 147.32 0)
@@ -2587,7 +2587,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "R302") (unit 1)
+          (reference "R502") (unit 1)
         )
       )
     )
@@ -2596,7 +2596,7 @@
   (symbol (lib_id "Device:D") (at 262.89 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 225ee637-c863-41c3-a9c9-de4f8ddf67ff)
-    (property "Reference" "D313" (at 262.89 80.01 0)
+    (property "Reference" "D513" (at 262.89 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 262.89 82.55 0)
@@ -2619,7 +2619,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D313") (unit 1)
+          (reference "D513") (unit 1)
         )
       )
     )
@@ -2628,7 +2628,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 212.09 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 247a56d1-aa8c-48c1-a46d-a71b2ab6d901)
-    (property "Reference" "SW302" (at 212.09 68.58 0)
+    (property "Reference" "SW502" (at 212.09 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 212.09 71.12 0)
@@ -2645,7 +2645,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW302") (unit 1)
+          (reference "SW502") (unit 1)
         )
       )
     )
@@ -2654,7 +2654,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 212.09 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2907ae9c-ac22-4d59-b4cc-466174f301ac)
-    (property "Reference" "SW303" (at 212.09 119.38 0)
+    (property "Reference" "SW503" (at 212.09 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 212.09 121.92 0)
@@ -2671,7 +2671,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW303") (unit 1)
+          (reference "SW503") (unit 1)
         )
       )
     )
@@ -2680,7 +2680,7 @@
   (symbol (lib_id "Device:D") (at 237.49 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c621997-4f1c-45e5-aaf6-a9b690dc1b44)
-    (property "Reference" "D306" (at 237.49 54.61 0)
+    (property "Reference" "D506" (at 237.49 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 237.49 57.15 0)
@@ -2703,7 +2703,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D306") (unit 1)
+          (reference "D506") (unit 1)
         )
       )
     )
@@ -2712,7 +2712,7 @@
   (symbol (lib_id "Device:D") (at 313.69 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31827fa9-0447-4c0c-bb11-68bcaab140b0)
-    (property "Reference" "D327" (at 313.69 130.81 0)
+    (property "Reference" "D527" (at 313.69 130.81 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 313.69 133.35 0)
@@ -2735,7 +2735,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D327") (unit 1)
+          (reference "D527") (unit 1)
         )
       )
     )
@@ -2744,7 +2744,7 @@
   (symbol (lib_id "Device:R_US") (at 199.39 199.39 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3309d84a-2c8e-4392-8285-c00d6e9a784c)
-    (property "Reference" "R303" (at 201.93 198.12 0)
+    (property "Reference" "R503" (at 201.93 198.12 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.2k" (at 201.93 200.66 0)
@@ -2761,7 +2761,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "R303") (unit 1)
+          (reference "R503") (unit 1)
         )
       )
     )
@@ -2770,7 +2770,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 212.09 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 338c1849-abd9-4dca-9f4c-680ef347c5d9)
-    (property "Reference" "SW305" (at 212.09 170.18 0)
+    (property "Reference" "SW505" (at 212.09 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 212.09 172.72 0)
@@ -2787,7 +2787,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW305") (unit 1)
+          (reference "SW505") (unit 1)
         )
       )
     )
@@ -2796,7 +2796,7 @@
   (symbol (lib_id "Device:D") (at 237.49 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38b73599-fdb5-4054-94ee-3dcba3be661d)
-    (property "Reference" "D310" (at 237.49 156.21 0)
+    (property "Reference" "D510" (at 237.49 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 237.49 158.75 0)
@@ -2819,7 +2819,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D310") (unit 1)
+          (reference "D510") (unit 1)
         )
       )
     )
@@ -2828,7 +2828,7 @@
   (symbol (lib_id "Device:D") (at 364.49 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3da635e4-9c84-49f1-9199-20c1e72b5e36)
-    (property "Reference" "D338" (at 364.49 105.41 0)
+    (property "Reference" "D538" (at 364.49 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 364.49 107.95 0)
@@ -2851,7 +2851,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D338") (unit 1)
+          (reference "D538") (unit 1)
         )
       )
     )
@@ -2860,7 +2860,7 @@
   (symbol (lib_id "Device:R_US") (at 300.99 212.09 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f5fe8fc-7f82-447c-b651-465670683882)
-    (property "Reference" "R307" (at 303.53 210.82 0)
+    (property "Reference" "R507" (at 303.53 210.82 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.2k" (at 303.53 213.36 0)
@@ -2877,7 +2877,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "R307") (unit 1)
+          (reference "R507") (unit 1)
         )
       )
     )
@@ -2886,7 +2886,7 @@
   (symbol (lib_id "Device:D") (at 364.49 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f9694c6-ef12-4abf-93a5-119f5c219c31)
-    (property "Reference" "D339" (at 364.49 130.81 0)
+    (property "Reference" "D539" (at 364.49 130.81 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 364.49 133.35 0)
@@ -2909,7 +2909,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D339") (unit 1)
+          (reference "D539") (unit 1)
         )
       )
     )
@@ -2918,7 +2918,7 @@
   (symbol (lib_id "Device:D") (at 288.29 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3fa68bf3-486c-4558-85ad-1b1864c5f47b)
-    (property "Reference" "D322" (at 288.29 156.21 0)
+    (property "Reference" "D522" (at 288.29 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 288.29 158.75 0)
@@ -2941,7 +2941,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D322") (unit 1)
+          (reference "D522") (unit 1)
         )
       )
     )
@@ -2950,7 +2950,7 @@
   (symbol (lib_id "Device:D") (at 339.09 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4538149d-3687-4c80-9038-212a3e5189e2)
-    (property "Reference" "D332" (at 339.09 105.41 0)
+    (property "Reference" "D532" (at 339.09 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 339.09 107.95 0)
@@ -2973,7 +2973,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D332") (unit 1)
+          (reference "D532") (unit 1)
         )
       )
     )
@@ -2982,7 +2982,7 @@
   (symbol (lib_id "Device:D") (at 313.69 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 468c1ad0-f8a5-46ad-9c30-f8d3428cd7fc)
-    (property "Reference" "D328" (at 313.69 156.21 0)
+    (property "Reference" "D528" (at 313.69 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 313.69 158.75 0)
@@ -3005,7 +3005,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D328") (unit 1)
+          (reference "D528") (unit 1)
         )
       )
     )
@@ -3014,7 +3014,7 @@
   (symbol (lib_id "Device:R_US") (at 275.59 212.09 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 46f3ad92-b43d-4576-a81e-5763b3cae640)
-    (property "Reference" "R306" (at 278.13 210.82 0)
+    (property "Reference" "R506" (at 278.13 210.82 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.2k" (at 278.13 213.36 0)
@@ -3031,7 +3031,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "R306") (unit 1)
+          (reference "R506") (unit 1)
         )
       )
     )
@@ -3040,7 +3040,7 @@
   (symbol (lib_id "Device:D") (at 339.09 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 48470934-432f-40c9-92be-d66ddfe58afe)
-    (property "Reference" "D331" (at 339.09 80.01 0)
+    (property "Reference" "D531" (at 339.09 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 339.09 82.55 0)
@@ -3063,7 +3063,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D331") (unit 1)
+          (reference "D531") (unit 1)
         )
       )
     )
@@ -3072,7 +3072,7 @@
   (symbol (lib_id "Device:D") (at 212.09 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a2a85e7-10cc-4caf-9bac-01abe94c14ab)
-    (property "Reference" "D304" (at 212.09 156.21 0)
+    (property "Reference" "D504" (at 212.09 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 212.09 158.75 0)
@@ -3095,7 +3095,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D304") (unit 1)
+          (reference "D504") (unit 1)
         )
       )
     )
@@ -3104,7 +3104,7 @@
   (symbol (lib_id "Interface_Expansion:MCP23017_ML") (at 104.14 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f4b76bd-69e6-4471-b7cb-8857e2903dfa)
-    (property "Reference" "U301" (at 106.5428 109.22 0)
+    (property "Reference" "U501" (at 106.5428 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MCP23017_ML" (at 106.5428 111.76 0)
@@ -3148,7 +3148,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "U301") (unit 1)
+          (reference "U501") (unit 1)
         )
       )
     )
@@ -3157,7 +3157,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 339.09 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52de9c8e-e911-4f2c-bc77-9a2b72851f05)
-    (property "Reference" "SW334" (at 339.09 93.98 0)
+    (property "Reference" "SW534" (at 339.09 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 339.09 96.52 0)
@@ -3174,7 +3174,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW334") (unit 1)
+          (reference "SW534") (unit 1)
         )
       )
     )
@@ -3183,7 +3183,7 @@
   (symbol (lib_id "Device:R_US") (at 250.19 199.39 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 536c3d18-7f16-4db7-8cc4-d3a2661c51e0)
-    (property "Reference" "R305" (at 252.73 198.12 0)
+    (property "Reference" "R505" (at 252.73 198.12 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.2k" (at 252.73 200.66 0)
@@ -3200,7 +3200,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "R305") (unit 1)
+          (reference "R505") (unit 1)
         )
       )
     )
@@ -3209,7 +3209,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 262.89 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53a8b62c-3931-4c3c-b724-a83169e86fbc)
-    (property "Reference" "SW315" (at 262.89 119.38 0)
+    (property "Reference" "SW515" (at 262.89 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 262.89 121.92 0)
@@ -3226,7 +3226,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW315") (unit 1)
+          (reference "SW515") (unit 1)
         )
       )
     )
@@ -3235,7 +3235,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 339.09 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53c2aa45-60e6-442a-bf07-6df1a09c22f6)
-    (property "Reference" "SW336" (at 339.09 144.78 0)
+    (property "Reference" "SW536" (at 339.09 144.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 339.09 147.32 0)
@@ -3252,7 +3252,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW336") (unit 1)
+          (reference "SW536") (unit 1)
         )
       )
     )
@@ -3261,7 +3261,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 288.29 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 55664a15-b3b7-4687-aa2f-1c890c9b304f)
-    (property "Reference" "SW319" (at 288.29 68.58 0)
+    (property "Reference" "SW519" (at 288.29 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 288.29 71.12 0)
@@ -3278,7 +3278,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW319") (unit 1)
+          (reference "SW519") (unit 1)
         )
       )
     )
@@ -3287,7 +3287,7 @@
   (symbol (lib_id "power:GND") (at 66.04 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 578d2386-cf6a-4a29-8f0e-e3fe160ee478)
-    (property "Reference" "#PWR0303" (at 66.04 170.18 0)
+    (property "Reference" "#PWR0503" (at 66.04 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 167.64 0)
@@ -3303,7 +3303,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "#PWR0303") (unit 1)
+          (reference "#PWR0503") (unit 1)
         )
       )
     )
@@ -3312,7 +3312,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 364.49 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a7d522b-dde0-4a55-b452-a12bf9b34fb9)
-    (property "Reference" "SW340" (at 364.49 93.98 0)
+    (property "Reference" "SW540" (at 364.49 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 364.49 96.52 0)
@@ -3329,7 +3329,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW340") (unit 1)
+          (reference "SW540") (unit 1)
         )
       )
     )
@@ -3338,7 +3338,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 339.09 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b257d2b-3679-46c4-99ec-fac3c7b6a424)
-    (property "Reference" "SW332" (at 339.09 43.18 0)
+    (property "Reference" "SW532" (at 339.09 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 339.09 45.72 0)
@@ -3355,7 +3355,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW332") (unit 1)
+          (reference "SW532") (unit 1)
         )
       )
     )
@@ -3364,7 +3364,7 @@
   (symbol (lib_id "Device:D") (at 212.09 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c5957b2-c42e-4241-b2a4-61181d37e45b)
-    (property "Reference" "D302" (at 212.09 80.01 0)
+    (property "Reference" "D502" (at 212.09 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 212.09 82.55 0)
@@ -3387,7 +3387,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D302") (unit 1)
+          (reference "D502") (unit 1)
         )
       )
     )
@@ -3396,7 +3396,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 288.29 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ff94a7e-c406-4f82-9af8-490ef22c24fb)
-    (property "Reference" "SW324" (at 288.29 181.61 0)
+    (property "Reference" "SW524" (at 288.29 181.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 288.29 184.15 0)
@@ -3413,7 +3413,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW324") (unit 1)
+          (reference "SW524") (unit 1)
         )
       )
     )
@@ -3422,7 +3422,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 262.89 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 618ab55a-8c5d-41da-9483-81caab20d5b4)
-    (property "Reference" "SW317" (at 262.89 170.18 0)
+    (property "Reference" "SW517" (at 262.89 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 262.89 172.72 0)
@@ -3439,7 +3439,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW317") (unit 1)
+          (reference "SW517") (unit 1)
         )
       )
     )
@@ -3448,7 +3448,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 288.29 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65edbeb3-cde1-498c-a4b4-14d02bc232b5)
-    (property "Reference" "SW320" (at 288.29 93.98 0)
+    (property "Reference" "SW520" (at 288.29 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 288.29 96.52 0)
@@ -3465,7 +3465,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW320") (unit 1)
+          (reference "SW520") (unit 1)
         )
       )
     )
@@ -3474,7 +3474,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 262.89 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6902180c-9a20-4cdd-a042-2bfd6c4b2c78)
-    (property "Reference" "SW312" (at 262.89 43.18 0)
+    (property "Reference" "SW512" (at 262.89 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 262.89 45.72 0)
@@ -3491,7 +3491,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW312") (unit 1)
+          (reference "SW512") (unit 1)
         )
       )
     )
@@ -3500,7 +3500,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 339.09 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6aa2b6fa-f1f2-4c97-ab0b-de27301f95ff)
-    (property "Reference" "SW337" (at 339.09 170.18 0)
+    (property "Reference" "SW537" (at 339.09 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 339.09 172.72 0)
@@ -3517,7 +3517,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW337") (unit 1)
+          (reference "SW537") (unit 1)
         )
       )
     )
@@ -3526,7 +3526,7 @@
   (symbol (lib_id "power:GND") (at 135.89 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6d3aad6f-27ec-4fa4-81b9-64c66badad06)
-    (property "Reference" "#PWR0306" (at 135.89 119.38 0)
+    (property "Reference" "#PWR0506" (at 135.89 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.89 116.84 0)
@@ -3542,7 +3542,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "#PWR0306") (unit 1)
+          (reference "#PWR0506") (unit 1)
         )
       )
     )
@@ -3551,7 +3551,7 @@
   (symbol (lib_id "Device:D") (at 288.29 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74468156-3295-4224-bb2f-2977612debdd)
-    (property "Reference" "D320" (at 288.29 105.41 0)
+    (property "Reference" "D520" (at 288.29 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 288.29 107.95 0)
@@ -3574,7 +3574,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D320") (unit 1)
+          (reference "D520") (unit 1)
         )
       )
     )
@@ -3583,7 +3583,7 @@
   (symbol (lib_id "Device:D") (at 364.49 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79bbaa69-1a96-416b-a284-22d32903824a)
-    (property "Reference" "D337" (at 364.49 80.01 0)
+    (property "Reference" "D537" (at 364.49 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 364.49 82.55 0)
@@ -3606,7 +3606,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D337") (unit 1)
+          (reference "D537") (unit 1)
         )
       )
     )
@@ -3615,7 +3615,7 @@
   (symbol (lib_id "Device:D") (at 364.49 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79d320b4-1770-48a0-b623-a3f28ce3e55e)
-    (property "Reference" "D336" (at 364.49 54.61 0)
+    (property "Reference" "D536" (at 364.49 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 364.49 57.15 0)
@@ -3638,7 +3638,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D336") (unit 1)
+          (reference "D536") (unit 1)
         )
       )
     )
@@ -3647,7 +3647,7 @@
   (symbol (lib_id "Device:R_US") (at 53.34 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e809c62-d455-4f0b-b08d-56ad9d0134a7)
-    (property "Reference" "R301" (at 55.88 144.78 0)
+    (property "Reference" "R501" (at 55.88 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 55.88 147.32 0)
@@ -3664,7 +3664,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "R301") (unit 1)
+          (reference "R501") (unit 1)
         )
       )
     )
@@ -3673,7 +3673,7 @@
   (symbol (lib_id "Device:D") (at 339.09 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 80dbc2b1-11c7-4cdc-a762-f9ef25baa606)
-    (property "Reference" "D333" (at 339.09 130.81 0)
+    (property "Reference" "D533" (at 339.09 130.81 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 339.09 133.35 0)
@@ -3696,7 +3696,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D333") (unit 1)
+          (reference "D533") (unit 1)
         )
       )
     )
@@ -3705,7 +3705,7 @@
   (symbol (lib_id "Device:D") (at 237.49 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8362e3d7-15cf-4e69-b748-4bfa71a8e148)
-    (property "Reference" "D308" (at 237.49 105.41 0)
+    (property "Reference" "D508" (at 237.49 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 237.49 107.95 0)
@@ -3728,7 +3728,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D308") (unit 1)
+          (reference "D508") (unit 1)
         )
       )
     )
@@ -3737,7 +3737,7 @@
   (symbol (lib_id "Device:D") (at 262.89 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84a8858e-1c11-4b2d-a428-d8674585f15c)
-    (property "Reference" "D312" (at 262.89 54.61 0)
+    (property "Reference" "D512" (at 262.89 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 262.89 57.15 0)
@@ -3760,7 +3760,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D312") (unit 1)
+          (reference "D512") (unit 1)
         )
       )
     )
@@ -3769,7 +3769,7 @@
   (symbol (lib_id "Device:D") (at 237.49 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b2cd3d3-6656-4742-b8fd-831ba98fffe9)
-    (property "Reference" "D311" (at 237.49 181.61 0)
+    (property "Reference" "D511" (at 237.49 181.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 237.49 184.15 0)
@@ -3792,7 +3792,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D311") (unit 1)
+          (reference "D511") (unit 1)
         )
       )
     )
@@ -3801,7 +3801,7 @@
   (symbol (lib_id "Device:D") (at 313.69 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ba21dcc-f04b-4083-bc7b-3640ba21cd96)
-    (property "Reference" "D325" (at 313.69 80.01 0)
+    (property "Reference" "D525" (at 313.69 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 313.69 82.55 0)
@@ -3824,7 +3824,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D325") (unit 1)
+          (reference "D525") (unit 1)
         )
       )
     )
@@ -3833,7 +3833,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 364.49 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8de85c33-4d3b-497d-91ab-3dc9226ceb6f)
-    (property "Reference" "SW338" (at 364.49 43.18 0)
+    (property "Reference" "SW538" (at 364.49 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 364.49 45.72 0)
@@ -3850,7 +3850,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW338") (unit 1)
+          (reference "SW538") (unit 1)
         )
       )
     )
@@ -3859,7 +3859,7 @@
   (symbol (lib_id "Device:D") (at 237.49 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 907fa2b5-f6ad-42ff-91e9-61bfda0f99db)
-    (property "Reference" "D307" (at 237.49 80.01 0)
+    (property "Reference" "D507" (at 237.49 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 237.49 82.55 0)
@@ -3882,7 +3882,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D307") (unit 1)
+          (reference "D507") (unit 1)
         )
       )
     )
@@ -3891,7 +3891,7 @@
   (symbol (lib_id "Device:R_US") (at 224.79 199.39 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97c568b7-5002-4bb2-b432-50a1e79fb165)
-    (property "Reference" "R304" (at 227.33 198.12 0)
+    (property "Reference" "R504" (at 227.33 198.12 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.2k" (at 227.33 200.66 0)
@@ -3908,7 +3908,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "R304") (unit 1)
+          (reference "R504") (unit 1)
         )
       )
     )
@@ -3917,7 +3917,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 339.09 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0bf6905-a7c1-4178-80d5-7c232d279667)
-    (property "Reference" "SW335" (at 339.09 119.38 0)
+    (property "Reference" "SW535" (at 339.09 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 339.09 121.92 0)
@@ -3934,7 +3934,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW335") (unit 1)
+          (reference "SW535") (unit 1)
         )
       )
     )
@@ -3943,7 +3943,7 @@
   (symbol (lib_id "Device:D") (at 288.29 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a19c60b9-e197-4d09-9f45-09a1276c245f)
-    (property "Reference" "D323" (at 288.29 193.04 0)
+    (property "Reference" "D523" (at 288.29 193.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 288.29 195.58 0)
@@ -3966,7 +3966,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D323") (unit 1)
+          (reference "D523") (unit 1)
         )
       )
     )
@@ -3975,7 +3975,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 288.29 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a239a0b0-a73b-448c-94b9-499f8ff96772)
-    (property "Reference" "SW323" (at 288.29 170.18 0)
+    (property "Reference" "SW523" (at 288.29 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 288.29 172.72 0)
@@ -3992,7 +3992,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW323") (unit 1)
+          (reference "SW523") (unit 1)
         )
       )
     )
@@ -4001,7 +4001,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 313.69 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a7147d4b-4542-405e-9a89-a13285905432)
-    (property "Reference" "SW330" (at 313.69 170.18 0)
+    (property "Reference" "SW530" (at 313.69 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 313.69 172.72 0)
@@ -4018,7 +4018,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW330") (unit 1)
+          (reference "SW530") (unit 1)
         )
       )
     )
@@ -4027,7 +4027,7 @@
   (symbol (lib_id "Device:D") (at 212.09 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad08a099-5878-4734-a7fe-1c3c3cc947dd)
-    (property "Reference" "D303" (at 212.09 130.81 0)
+    (property "Reference" "D503" (at 212.09 130.81 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 212.09 133.35 0)
@@ -4050,7 +4050,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D303") (unit 1)
+          (reference "D503") (unit 1)
         )
       )
     )
@@ -4059,7 +4059,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 237.49 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af013908-ce12-4c8e-abf5-dd86d0463b2f)
-    (property "Reference" "SW308" (at 237.49 93.98 0)
+    (property "Reference" "SW508" (at 237.49 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 237.49 96.52 0)
@@ -4076,7 +4076,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW308") (unit 1)
+          (reference "SW508") (unit 1)
         )
       )
     )
@@ -4085,7 +4085,7 @@
   (symbol (lib_id "Device:D") (at 313.69 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af7551ae-6bc4-43d2-a429-f79490e1b248)
-    (property "Reference" "D329" (at 313.69 193.04 0)
+    (property "Reference" "D529" (at 313.69 193.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 313.69 195.58 0)
@@ -4108,7 +4108,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D329") (unit 1)
+          (reference "D529") (unit 1)
         )
       )
     )
@@ -4117,7 +4117,7 @@
   (symbol (lib_id "Device:R_US") (at 326.39 199.39 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid afae4558-643e-47fc-bd69-bb62c1171f58)
-    (property "Reference" "R308" (at 328.93 198.12 0)
+    (property "Reference" "R508" (at 328.93 198.12 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.2k" (at 328.93 200.66 0)
@@ -4134,7 +4134,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "R308") (unit 1)
+          (reference "R508") (unit 1)
         )
       )
     )
@@ -4143,7 +4143,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 288.29 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b062932f-4056-41cc-be8b-bf5c1e288095)
-    (property "Reference" "SW321" (at 288.29 119.38 0)
+    (property "Reference" "SW521" (at 288.29 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 288.29 121.92 0)
@@ -4160,7 +4160,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW321") (unit 1)
+          (reference "SW521") (unit 1)
         )
       )
     )
@@ -4169,7 +4169,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 262.89 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0acad11-5a31-4da0-b637-53ebbbe36bcc)
-    (property "Reference" "SW313" (at 262.89 68.58 0)
+    (property "Reference" "SW513" (at 262.89 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 262.89 71.12 0)
@@ -4186,7 +4186,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW313") (unit 1)
+          (reference "SW513") (unit 1)
         )
       )
     )
@@ -4195,7 +4195,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 364.49 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0db0b0d-78c4-40de-ad74-52c3051c6262)
-    (property "Reference" "SW339" (at 364.49 68.58 0)
+    (property "Reference" "SW539" (at 364.49 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 364.49 71.12 0)
@@ -4212,7 +4212,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW339") (unit 1)
+          (reference "SW539") (unit 1)
         )
       )
     )
@@ -4221,7 +4221,7 @@
   (symbol (lib_id "Device:D") (at 313.69 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3be8bc6-9287-4b97-af06-784705df5ef1)
-    (property "Reference" "D324" (at 313.69 54.61 0)
+    (property "Reference" "D524" (at 313.69 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 313.69 57.15 0)
@@ -4244,7 +4244,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D324") (unit 1)
+          (reference "D524") (unit 1)
         )
       )
     )
@@ -4253,7 +4253,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 313.69 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5422ae1-c363-459c-b184-8a1cc248b604)
-    (property "Reference" "SW326" (at 313.69 68.58 0)
+    (property "Reference" "SW526" (at 313.69 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 313.69 71.12 0)
@@ -4270,7 +4270,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW326") (unit 1)
+          (reference "SW526") (unit 1)
         )
       )
     )
@@ -4279,7 +4279,7 @@
   (symbol (lib_id "Device:D") (at 212.09 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7b0d5f0-8407-426f-90f1-bb22bceea4db)
-    (property "Reference" "D305" (at 212.09 181.61 0)
+    (property "Reference" "D505" (at 212.09 181.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 212.09 184.15 0)
@@ -4302,7 +4302,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D305") (unit 1)
+          (reference "D505") (unit 1)
         )
       )
     )
@@ -4311,7 +4311,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 288.29 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc533e6a-c040-457f-876f-38f481604c12)
-    (property "Reference" "SW318" (at 288.29 43.18 0)
+    (property "Reference" "SW518" (at 288.29 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 288.29 45.72 0)
@@ -4328,7 +4328,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW318") (unit 1)
+          (reference "SW518") (unit 1)
         )
       )
     )
@@ -4337,7 +4337,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 313.69 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c01769e2-4028-4e0e-b835-6dc283d9ecd0)
-    (property "Reference" "SW328" (at 313.69 119.38 0)
+    (property "Reference" "SW528" (at 313.69 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 313.69 121.92 0)
@@ -4354,7 +4354,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW328") (unit 1)
+          (reference "SW528") (unit 1)
         )
       )
     )
@@ -4363,7 +4363,7 @@
   (symbol (lib_id "Device:D") (at 288.29 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0c5f613-eb6c-42c3-99f0-1e0c29a8e033)
-    (property "Reference" "D318" (at 288.29 54.61 0)
+    (property "Reference" "D518" (at 288.29 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 288.29 57.15 0)
@@ -4386,7 +4386,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D318") (unit 1)
+          (reference "D518") (unit 1)
         )
       )
     )
@@ -4395,7 +4395,7 @@
   (symbol (lib_id "Device:D") (at 262.89 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c171cd77-80c9-46b7-bf64-4fb454fadbd2)
-    (property "Reference" "D317" (at 262.89 181.61 0)
+    (property "Reference" "D517" (at 262.89 181.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 262.89 184.15 0)
@@ -4418,7 +4418,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D317") (unit 1)
+          (reference "D517") (unit 1)
         )
       )
     )
@@ -4427,7 +4427,7 @@
   (symbol (lib_id "Device:D") (at 237.49 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c1af78ac-9e30-40cc-a146-7592a2a51785)
-    (property "Reference" "D309" (at 237.49 130.81 0)
+    (property "Reference" "D509" (at 237.49 130.81 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 237.49 133.35 0)
@@ -4450,7 +4450,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D309") (unit 1)
+          (reference "D509") (unit 1)
         )
       )
     )
@@ -4459,7 +4459,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 212.09 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4647c78-7ce2-480d-b2ff-0d188d2eb02e)
-    (property "Reference" "SW301" (at 212.09 43.18 0)
+    (property "Reference" "SW501" (at 212.09 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 212.09 45.72 0)
@@ -4476,7 +4476,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW301") (unit 1)
+          (reference "SW501") (unit 1)
         )
       )
     )
@@ -4485,7 +4485,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 262.89 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c5ee8369-6b21-40e0-b857-5cb4904f6d85)
-    (property "Reference" "SW314" (at 262.89 93.98 0)
+    (property "Reference" "SW514" (at 262.89 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 262.89 96.52 0)
@@ -4502,7 +4502,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW314") (unit 1)
+          (reference "SW514") (unit 1)
         )
       )
     )
@@ -4511,7 +4511,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 237.49 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd7050bf-5d88-42a7-a764-96642340a911)
-    (property "Reference" "SW311" (at 237.49 170.18 0)
+    (property "Reference" "SW511" (at 237.49 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 237.49 172.72 0)
@@ -4528,7 +4528,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW311") (unit 1)
+          (reference "SW511") (unit 1)
         )
       )
     )
@@ -4537,7 +4537,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 212.09 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce06e358-6b29-4cd3-925b-8d4f4c6c333f)
-    (property "Reference" "SW304" (at 212.09 144.78 0)
+    (property "Reference" "SW504" (at 212.09 144.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 212.09 147.32 0)
@@ -4554,7 +4554,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW304") (unit 1)
+          (reference "SW504") (unit 1)
         )
       )
     )
@@ -4563,7 +4563,7 @@
   (symbol (lib_id "power:+3V3") (at 66.04 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce79f61f-effe-4689-96e8-3a43ca93b671)
-    (property "Reference" "#PWR0302" (at 66.04 144.78 0)
+    (property "Reference" "#PWR0502" (at 66.04 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 66.04 135.89 0)
@@ -4579,7 +4579,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "#PWR0302") (unit 1)
+          (reference "#PWR0502") (unit 1)
         )
       )
     )
@@ -4588,7 +4588,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 237.49 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cfe41d46-ba55-496c-965a-fb3e3bd21077)
-    (property "Reference" "SW307" (at 237.49 68.58 0)
+    (property "Reference" "SW507" (at 237.49 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 237.49 71.12 0)
@@ -4605,7 +4605,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW307") (unit 1)
+          (reference "SW507") (unit 1)
         )
       )
     )
@@ -4614,7 +4614,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 288.29 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d047cf3e-2958-4763-b277-c082c9dadc81)
-    (property "Reference" "SW322" (at 288.29 144.78 0)
+    (property "Reference" "SW522" (at 288.29 144.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 288.29 147.32 0)
@@ -4631,7 +4631,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW322") (unit 1)
+          (reference "SW522") (unit 1)
         )
       )
     )
@@ -4640,7 +4640,7 @@
   (symbol (lib_id "power:GND") (at 102.87 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d1ca740f-f5bc-4773-be8f-401cc5aca5d1)
-    (property "Reference" "#PWR0304" (at 102.87 172.72 0)
+    (property "Reference" "#PWR0504" (at 102.87 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 170.18 0)
@@ -4656,7 +4656,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "#PWR0304") (unit 1)
+          (reference "#PWR0504") (unit 1)
         )
       )
     )
@@ -4665,7 +4665,7 @@
   (symbol (lib_id "Device:D") (at 288.29 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d61e6566-026b-4c54-92a4-5af8870f6fdf)
-    (property "Reference" "D319" (at 288.29 80.01 0)
+    (property "Reference" "D519" (at 288.29 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 288.29 82.55 0)
@@ -4688,7 +4688,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D319") (unit 1)
+          (reference "D519") (unit 1)
         )
       )
     )
@@ -4697,7 +4697,7 @@
   (symbol (lib_id "Device:D") (at 339.09 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dbee82aa-ca00-4e1c-a59f-a5b005b7ec58)
-    (property "Reference" "D335" (at 339.09 181.61 0)
+    (property "Reference" "D535" (at 339.09 181.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 339.09 184.15 0)
@@ -4720,7 +4720,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D335") (unit 1)
+          (reference "D535") (unit 1)
         )
       )
     )
@@ -4729,7 +4729,7 @@
   (symbol (lib_id "Device:C") (at 135.89 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ddb7f6f8-2daf-4c49-97ed-bf58caebdfcf)
-    (property "Reference" "C301" (at 139.7 107.95 0)
+    (property "Reference" "C501" (at 139.7 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 139.7 110.49 0)
@@ -4746,7 +4746,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "C301") (unit 1)
+          (reference "C501") (unit 1)
         )
       )
     )
@@ -4755,7 +4755,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 364.49 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df06cd21-8a8f-4fe9-aa04-fb82af3e198c)
-    (property "Reference" "SW341" (at 364.49 119.38 0)
+    (property "Reference" "SW541" (at 364.49 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 364.49 121.92 0)
@@ -4772,7 +4772,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW341") (unit 1)
+          (reference "SW541") (unit 1)
         )
       )
     )
@@ -4781,7 +4781,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 313.69 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df33af24-9a6f-4f8c-8f1f-f3754efd32e2)
-    (property "Reference" "SW329" (at 313.69 144.78 0)
+    (property "Reference" "SW529" (at 313.69 144.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 313.69 147.32 0)
@@ -4798,7 +4798,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW329") (unit 1)
+          (reference "SW529") (unit 1)
         )
       )
     )
@@ -4807,7 +4807,7 @@
   (symbol (lib_id "Device:D") (at 364.49 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e17226cf-c107-47e5-b40a-0c35c45e0750)
-    (property "Reference" "D340" (at 364.49 156.21 0)
+    (property "Reference" "D540" (at 364.49 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 364.49 158.75 0)
@@ -4830,7 +4830,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D340") (unit 1)
+          (reference "D540") (unit 1)
         )
       )
     )
@@ -4839,7 +4839,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 313.69 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3357ae7-df7b-4d95-8ea0-2b43e63489b0)
-    (property "Reference" "SW325" (at 313.69 43.18 0)
+    (property "Reference" "SW525" (at 313.69 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 313.69 45.72 0)
@@ -4856,7 +4856,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW325") (unit 1)
+          (reference "SW525") (unit 1)
         )
       )
     )
@@ -4865,7 +4865,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 313.69 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4fd6552-23de-4a2d-9d9f-87ab54206979)
-    (property "Reference" "SW331" (at 313.69 181.61 0)
+    (property "Reference" "SW531" (at 313.69 181.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 313.69 184.15 0)
@@ -4882,7 +4882,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW331") (unit 1)
+          (reference "SW531") (unit 1)
         )
       )
     )
@@ -4891,7 +4891,7 @@
   (symbol (lib_id "power:+3V3") (at 104.14 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5064b09-59a8-472b-a39e-babff84d07d0)
-    (property "Reference" "#PWR0305" (at 104.14 106.68 0)
+    (property "Reference" "#PWR0505" (at 104.14 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 104.14 97.79 0)
@@ -4907,7 +4907,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "#PWR0305") (unit 1)
+          (reference "#PWR0505") (unit 1)
         )
       )
     )
@@ -4916,7 +4916,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 313.69 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8871ea9-9143-43d0-9fdb-f53821ddcce2)
-    (property "Reference" "SW327" (at 313.69 93.98 0)
+    (property "Reference" "SW527" (at 313.69 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 313.69 96.52 0)
@@ -4933,7 +4933,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW327") (unit 1)
+          (reference "SW527") (unit 1)
         )
       )
     )
@@ -4942,7 +4942,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 237.49 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea662bac-5e8e-4ba7-b8ab-8b22c450c52e)
-    (property "Reference" "SW310" (at 237.49 144.78 0)
+    (property "Reference" "SW510" (at 237.49 144.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 237.49 147.32 0)
@@ -4959,7 +4959,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW310") (unit 1)
+          (reference "SW510") (unit 1)
         )
       )
     )
@@ -4968,7 +4968,7 @@
   (symbol (lib_id "Device:D") (at 212.09 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f067a3f2-39e0-469c-9740-51b81cc59669)
-    (property "Reference" "D301" (at 212.09 54.61 0)
+    (property "Reference" "D501" (at 212.09 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 212.09 57.15 0)
@@ -4991,7 +4991,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D301") (unit 1)
+          (reference "D501") (unit 1)
         )
       )
     )
@@ -5000,7 +5000,7 @@
   (symbol (lib_id "Device:D") (at 339.09 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f103f3b2-1cf3-495e-b137-cd9b9f2972d4)
-    (property "Reference" "D330" (at 339.09 54.61 0)
+    (property "Reference" "D530" (at 339.09 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 339.09 57.15 0)
@@ -5023,7 +5023,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D330") (unit 1)
+          (reference "D530") (unit 1)
         )
       )
     )
@@ -5032,7 +5032,7 @@
   (symbol (lib_id "Device:D") (at 262.89 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f131732b-7d0f-45cf-b416-6ee9dc5aebeb)
-    (property "Reference" "D314" (at 262.89 105.41 0)
+    (property "Reference" "D514" (at 262.89 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 262.89 107.95 0)
@@ -5055,7 +5055,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D314") (unit 1)
+          (reference "D514") (unit 1)
         )
       )
     )
@@ -5064,7 +5064,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 339.09 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1e8548b-c874-4a62-b9f8-ef46e8af20d0)
-    (property "Reference" "SW333" (at 339.09 68.58 0)
+    (property "Reference" "SW533" (at 339.09 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 339.09 71.12 0)
@@ -5081,7 +5081,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW333") (unit 1)
+          (reference "SW533") (unit 1)
         )
       )
     )
@@ -5090,7 +5090,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 262.89 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f34a2074-60c4-4862-a97c-3bfe82c9fcbf)
-    (property "Reference" "SW316" (at 262.89 144.78 0)
+    (property "Reference" "SW516" (at 262.89 144.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 262.89 147.32 0)
@@ -5107,7 +5107,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW316") (unit 1)
+          (reference "SW516") (unit 1)
         )
       )
     )
@@ -5116,7 +5116,7 @@
   (symbol (lib_id "Device:D") (at 288.29 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8a69df7-b31b-43f5-b4e6-6a1d9338e2b3)
-    (property "Reference" "D321" (at 288.29 130.81 0)
+    (property "Reference" "D521" (at 288.29 130.81 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 288.29 133.35 0)
@@ -5139,7 +5139,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D321") (unit 1)
+          (reference "D521") (unit 1)
         )
       )
     )
@@ -5148,7 +5148,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 237.49 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fbf3ccfd-e638-4ae9-b102-ce1b4d44307a)
-    (property "Reference" "SW309" (at 237.49 119.38 0)
+    (property "Reference" "SW509" (at 237.49 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 237.49 121.92 0)
@@ -5165,7 +5165,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "SW309") (unit 1)
+          (reference "SW509") (unit 1)
         )
       )
     )
@@ -5174,7 +5174,7 @@
   (symbol (lib_id "Device:D") (at 262.89 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe66932f-6dd9-4ec4-857b-4a6bb2ad4dc2)
-    (property "Reference" "D316" (at 262.89 156.21 0)
+    (property "Reference" "D516" (at 262.89 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 262.89 158.75 0)
@@ -5197,7 +5197,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/5c7bcf05-7440-4a13-96e5-08c31931c60a"
-          (reference "D316") (unit 1)
+          (reference "D516") (unit 1)
         )
       )
     )

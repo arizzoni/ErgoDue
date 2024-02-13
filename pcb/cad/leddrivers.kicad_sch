@@ -1802,7 +1802,7 @@
   (symbol (lib_id "power:GND") (at 154.94 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00bd0f80-e308-49bf-8937-a2a158d06764)
-    (property "Reference" "#PWR0420" (at 154.94 110.49 0)
+    (property "Reference" "#PWR0620" (at 154.94 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.94 109.22 0)
@@ -1818,7 +1818,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0420") (unit 1)
+          (reference "#PWR0620") (unit 1)
         )
       )
     )
@@ -1827,7 +1827,7 @@
   (symbol (lib_id "power:+3V3") (at 331.47 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 010994e4-e3f6-4476-b267-7d0f7d771113)
-    (property "Reference" "#PWR0440" (at 331.47 68.58 0)
+    (property "Reference" "#PWR0640" (at 331.47 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 331.47 59.69 0)
@@ -1843,7 +1843,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0440") (unit 1)
+          (reference "#PWR0640") (unit 1)
         )
       )
     )
@@ -1852,7 +1852,7 @@
   (symbol (lib_id "Device:C") (at 116.84 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07300f11-84b7-4304-9104-77bc5e296b5d)
-    (property "Reference" "C408" (at 120.65 156.21 0)
+    (property "Reference" "C608" (at 120.65 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 120.65 158.75 0)
@@ -1869,7 +1869,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C408") (unit 1)
+          (reference "C608") (unit 1)
         )
       )
     )
@@ -1878,7 +1878,7 @@
   (symbol (lib_id "power:+5V") (at 181.61 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09c7f9b7-121c-4a6b-9315-cbe613ad015b)
-    (property "Reference" "#PWR0430" (at 181.61 154.94 0)
+    (property "Reference" "#PWR0630" (at 181.61 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 181.61 146.05 0)
@@ -1894,7 +1894,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0430") (unit 1)
+          (reference "#PWR0630") (unit 1)
         )
       )
     )
@@ -1903,7 +1903,7 @@
   (symbol (lib_id "Device:C") (at 142.24 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a576303-6b8c-4a90-a674-bafc6e708157)
-    (property "Reference" "C412" (at 146.05 156.21 0)
+    (property "Reference" "C612" (at 146.05 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 146.05 158.75 0)
@@ -1920,7 +1920,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C412") (unit 1)
+          (reference "C612") (unit 1)
         )
       )
     )
@@ -1929,7 +1929,7 @@
   (symbol (lib_id "power:GND") (at 318.77 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b0b4d80-b0e4-442a-ab60-91357f5a3da6)
-    (property "Reference" "#PWR0438" (at 318.77 106.68 0)
+    (property "Reference" "#PWR0638" (at 318.77 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 318.77 105.41 0)
@@ -1945,7 +1945,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0438") (unit 1)
+          (reference "#PWR0638") (unit 1)
         )
       )
     )
@@ -1954,7 +1954,7 @@
   (symbol (lib_id "power:GND") (at 166.37 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ecf7f45-ef80-4941-b4da-546483070530)
-    (property "Reference" "#PWR0425" (at 166.37 59.69 0)
+    (property "Reference" "#PWR0625" (at 166.37 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 166.37 57.15 0)
@@ -1970,7 +1970,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0425") (unit 1)
+          (reference "#PWR0625") (unit 1)
         )
       )
     )
@@ -1979,7 +1979,7 @@
   (symbol (lib_id "power:+3V3") (at 154.94 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ede342b-7113-4121-94c8-73a6f28e421f)
-    (property "Reference" "#PWR0419" (at 154.94 72.39 0)
+    (property "Reference" "#PWR0619" (at 154.94 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 154.94 63.5 0)
@@ -1995,7 +1995,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0419") (unit 1)
+          (reference "#PWR0619") (unit 1)
         )
       )
     )
@@ -2004,7 +2004,7 @@
   (symbol (lib_id "Device:R_US") (at 118.11 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10d299a8-2818-4b52-8571-faabc5fb2859)
-    (property "Reference" "R402" (at 120.65 195.58 0)
+    (property "Reference" "R602" (at 120.65 195.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 120.65 198.12 0)
@@ -2021,7 +2021,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "R402") (unit 1)
+          (reference "R602") (unit 1)
         )
       )
     )
@@ -2030,7 +2030,7 @@
   (symbol (lib_id "power:+5V") (at 180.34 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 131b96f0-d7eb-4d7b-8a90-8bbdd810725b)
-    (property "Reference" "#PWR0429" (at 180.34 45.72 0)
+    (property "Reference" "#PWR0629" (at 180.34 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 180.34 38.1 0)
@@ -2046,7 +2046,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0429") (unit 1)
+          (reference "#PWR0629") (unit 1)
         )
       )
     )
@@ -2055,7 +2055,7 @@
   (symbol (lib_id "Device:C") (at 128.27 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14b70a32-ad4b-499f-b6b8-0f0b37eb412a)
-    (property "Reference" "C409" (at 132.08 46.99 0)
+    (property "Reference" "C609" (at 132.08 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 132.08 49.53 0)
@@ -2072,7 +2072,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C409") (unit 1)
+          (reference "C609") (unit 1)
         )
       )
     )
@@ -2081,7 +2081,7 @@
   (symbol (lib_id "power:GND") (at 330.2 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15bc8bba-d980-40e8-81b2-d7dffe78b1a0)
-    (property "Reference" "#PWR0439" (at 330.2 55.88 0)
+    (property "Reference" "#PWR0639" (at 330.2 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 330.2 53.34 0)
@@ -2097,7 +2097,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0439") (unit 1)
+          (reference "#PWR0639") (unit 1)
         )
       )
     )
@@ -2106,7 +2106,7 @@
   (symbol (lib_id "power:GND") (at 129.54 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1be58905-cbde-4a9f-9d13-3dc76eb83f8b)
-    (property "Reference" "#PWR0413" (at 129.54 168.91 0)
+    (property "Reference" "#PWR0613" (at 129.54 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 129.54 166.37 0)
@@ -2122,7 +2122,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0413") (unit 1)
+          (reference "#PWR0613") (unit 1)
         )
       )
     )
@@ -2131,7 +2131,7 @@
   (symbol (lib_id "Device:C") (at 292.1 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d5ac30c-eff2-451c-bc76-6469ec5fb073)
-    (property "Reference" "C420" (at 295.91 43.18 0)
+    (property "Reference" "C620" (at 295.91 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 295.91 45.72 0)
@@ -2148,7 +2148,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C420") (unit 1)
+          (reference "C620") (unit 1)
         )
       )
     )
@@ -2157,7 +2157,7 @@
   (symbol (lib_id "power:GND") (at 114.3 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f1853bf-4dd5-4ffc-a5db-a9270f21bc22)
-    (property "Reference" "#PWR0408" (at 114.3 59.69 0)
+    (property "Reference" "#PWR0608" (at 114.3 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 57.15 0)
@@ -2173,7 +2173,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0408") (unit 1)
+          (reference "#PWR0608") (unit 1)
         )
       )
     )
@@ -2182,7 +2182,7 @@
   (symbol (lib_id "power:GND") (at 101.6 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 210a4d75-7f6b-4331-ba2f-c07d8373f2b5)
-    (property "Reference" "#PWR0405" (at 101.6 59.69 0)
+    (property "Reference" "#PWR0605" (at 101.6 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.6 57.15 0)
@@ -2198,7 +2198,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0405") (unit 1)
+          (reference "#PWR0605") (unit 1)
         )
       )
     )
@@ -2207,7 +2207,7 @@
   (symbol (lib_id "Device:C") (at 167.64 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2219c340-0ccb-4ccd-a0bc-68a0194d60bb)
-    (property "Reference" "C416" (at 171.45 156.21 0)
+    (property "Reference" "C616" (at 171.45 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "C" (at 171.45 158.75 0)
@@ -2224,7 +2224,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C416") (unit 1)
+          (reference "C616") (unit 1)
         )
       )
     )
@@ -2233,7 +2233,7 @@
   (symbol (lib_id "power:GND") (at 254 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2358e84e-5baf-42be-b63a-40be46d2f126)
-    (property "Reference" "#PWR0431" (at 254 55.88 0)
+    (property "Reference" "#PWR0631" (at 254 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 254 53.34 0)
@@ -2249,7 +2249,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0431") (unit 1)
+          (reference "#PWR0631") (unit 1)
         )
       )
     )
@@ -2258,7 +2258,7 @@
   (symbol (lib_id "power:GND") (at 78.74 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25f1d277-c402-4a75-b750-9ba117b43e28)
-    (property "Reference" "#PWR0402" (at 78.74 168.91 0)
+    (property "Reference" "#PWR0602" (at 78.74 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.74 166.37 0)
@@ -2274,7 +2274,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0402") (unit 1)
+          (reference "#PWR0602") (unit 1)
         )
       )
     )
@@ -2283,7 +2283,7 @@
   (symbol (lib_id "Device:C") (at 154.94 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f911a71-1a91-42ec-9e0a-ca26bdd04a73)
-    (property "Reference" "C414" (at 158.75 156.21 0)
+    (property "Reference" "C614" (at 158.75 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 158.75 158.75 0)
@@ -2300,7 +2300,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C414") (unit 1)
+          (reference "C614") (unit 1)
         )
       )
     )
@@ -2309,7 +2309,7 @@
   (symbol (lib_id "power:GND") (at 292.1 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30f75765-50ad-4f6d-af70-208d2d06bfaf)
-    (property "Reference" "#PWR0434" (at 292.1 55.88 0)
+    (property "Reference" "#PWR0634" (at 292.1 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 292.1 53.34 0)
@@ -2325,7 +2325,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0434") (unit 1)
+          (reference "#PWR0634") (unit 1)
         )
       )
     )
@@ -2334,7 +2334,7 @@
   (symbol (lib_id "Device:R_US") (at 293.37 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3135c37e-1466-4523-828d-ef6223d4ef7c)
-    (property "Reference" "R406" (at 295.91 82.55 0)
+    (property "Reference" "R606" (at 295.91 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 295.91 85.09 0)
@@ -2351,7 +2351,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "R406") (unit 1)
+          (reference "R606") (unit 1)
         )
       )
     )
@@ -2360,7 +2360,7 @@
   (symbol (lib_id "power:GND") (at 304.8 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 393fbf44-0eba-4062-9d21-00dcda5a51f3)
-    (property "Reference" "#PWR0436" (at 304.8 55.88 0)
+    (property "Reference" "#PWR0636" (at 304.8 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 304.8 53.34 0)
@@ -2376,7 +2376,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0436") (unit 1)
+          (reference "#PWR0636") (unit 1)
         )
       )
     )
@@ -2385,7 +2385,7 @@
   (symbol (lib_id "power:GND") (at 342.9 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e3c6f0e-dd32-43bc-9faf-3b54e006c9ae)
-    (property "Reference" "#PWR0442" (at 342.9 55.88 0)
+    (property "Reference" "#PWR0642" (at 342.9 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 342.9 53.34 0)
@@ -2401,7 +2401,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0442") (unit 1)
+          (reference "#PWR0642") (unit 1)
         )
       )
     )
@@ -2410,7 +2410,7 @@
   (symbol (lib_id "Device:C") (at 266.7 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3fb70e1e-94d8-42c0-81a1-b97bf51796d8)
-    (property "Reference" "C418" (at 270.51 43.18 0)
+    (property "Reference" "C618" (at 270.51 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 270.51 45.72 0)
@@ -2427,7 +2427,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C418") (unit 1)
+          (reference "C618") (unit 1)
         )
       )
     )
@@ -2436,7 +2436,7 @@
   (symbol (lib_id "power:+3.3V") (at 156.21 204.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4506a072-0c80-4117-b859-06cec08169ea)
-    (property "Reference" "#PWR0423" (at 156.21 208.28 0)
+    (property "Reference" "#PWR0623" (at 156.21 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 156.21 200.66 0)
@@ -2452,7 +2452,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0423") (unit 1)
+          (reference "#PWR0623") (unit 1)
         )
       )
     )
@@ -2461,7 +2461,7 @@
   (symbol (lib_id "Device:C") (at 101.6 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 46a34e1b-4309-4109-8183-5f3f2aa21408)
-    (property "Reference" "C405" (at 105.41 46.99 0)
+    (property "Reference" "C605" (at 105.41 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 105.41 49.53 0)
@@ -2478,7 +2478,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C405") (unit 1)
+          (reference "C605") (unit 1)
         )
       )
     )
@@ -2487,7 +2487,7 @@
   (symbol (lib_id "power:GND") (at 177.8 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4992a478-51dc-4a42-bf87-fec5ab732f71)
-    (property "Reference" "#PWR0427" (at 177.8 134.62 0)
+    (property "Reference" "#PWR0627" (at 177.8 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 177.8 133.35 0)
@@ -2503,7 +2503,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0427") (unit 1)
+          (reference "#PWR0627") (unit 1)
         )
       )
     )
@@ -2512,7 +2512,7 @@
   (symbol (lib_id "power:GND") (at 293.37 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4eb63a6e-9871-40c6-b62e-253cb3c78c52)
-    (property "Reference" "#PWR0435" (at 293.37 93.98 0)
+    (property "Reference" "#PWR0635" (at 293.37 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 293.37 91.44 0)
@@ -2528,7 +2528,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0435") (unit 1)
+          (reference "#PWR0635") (unit 1)
         )
       )
     )
@@ -2537,7 +2537,7 @@
   (symbol (lib_id "power:GND") (at 88.9 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 513f7a96-c878-46e3-96c5-591332522aa4)
-    (property "Reference" "#PWR0403" (at 88.9 59.69 0)
+    (property "Reference" "#PWR0603" (at 88.9 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.9 57.15 0)
@@ -2553,7 +2553,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0403") (unit 1)
+          (reference "#PWR0603") (unit 1)
         )
       )
     )
@@ -2562,7 +2562,7 @@
   (symbol (lib_id "Device:C") (at 279.4 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56db3b55-ba9d-4b73-b6f0-ff0002420efa)
-    (property "Reference" "C419" (at 283.21 43.18 0)
+    (property "Reference" "C619" (at 283.21 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 283.21 45.72 0)
@@ -2579,7 +2579,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C419") (unit 1)
+          (reference "C619") (unit 1)
         )
       )
     )
@@ -2588,7 +2588,7 @@
   (symbol (lib_id "Device:C") (at 91.44 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58f1e388-2cd6-446b-aee2-7022d3b76407)
-    (property "Reference" "C404" (at 95.25 156.21 0)
+    (property "Reference" "C604" (at 95.25 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 95.25 158.75 0)
@@ -2605,7 +2605,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C404") (unit 1)
+          (reference "C604") (unit 1)
         )
       )
     )
@@ -2614,7 +2614,7 @@
   (symbol (lib_id "Device:C") (at 153.67 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a48eef5-2596-49cb-8c69-4aa7526bce0b)
-    (property "Reference" "C413" (at 157.48 46.99 0)
+    (property "Reference" "C613" (at 157.48 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 157.48 49.53 0)
@@ -2631,7 +2631,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C413") (unit 1)
+          (reference "C613") (unit 1)
         )
       )
     )
@@ -2640,7 +2640,7 @@
   (symbol (lib_id "power:+3.3V") (at 331.47 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63c1351c-a3e7-4970-8fc7-689143d4193f)
-    (property "Reference" "#PWR0441" (at 331.47 95.25 0)
+    (property "Reference" "#PWR0641" (at 331.47 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 331.47 87.63 0)
@@ -2656,7 +2656,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0441") (unit 1)
+          (reference "#PWR0641") (unit 1)
         )
       )
     )
@@ -2665,7 +2665,7 @@
   (symbol (lib_id "power:+3V3") (at 156.21 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6806a140-85b4-4618-9e87-b0da31056212)
-    (property "Reference" "#PWR0422" (at 156.21 181.61 0)
+    (property "Reference" "#PWR0622" (at 156.21 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 156.21 172.72 0)
@@ -2681,7 +2681,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0422") (unit 1)
+          (reference "#PWR0622") (unit 1)
         )
       )
     )
@@ -2690,7 +2690,7 @@
   (symbol (lib_id "Device:C") (at 114.3 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6cb7a743-d3fa-4081-a797-5de333face9c)
-    (property "Reference" "C407" (at 118.11 46.99 0)
+    (property "Reference" "C607" (at 118.11 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 118.11 49.53 0)
@@ -2707,7 +2707,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C407") (unit 1)
+          (reference "C607") (unit 1)
         )
       )
     )
@@ -2716,7 +2716,7 @@
   (symbol (lib_id "power:GND") (at 128.27 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74525f23-de72-4081-b738-1a27aacb4698)
-    (property "Reference" "#PWR0411" (at 128.27 59.69 0)
+    (property "Reference" "#PWR0611" (at 128.27 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.27 57.15 0)
@@ -2732,7 +2732,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0411") (unit 1)
+          (reference "#PWR0611") (unit 1)
         )
       )
     )
@@ -2741,7 +2741,7 @@
   (symbol (lib_id "Device:C") (at 342.9 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 759f3fb7-b185-45e1-b3ab-fc5ff8f5699b)
-    (property "Reference" "C424" (at 346.71 43.18 0)
+    (property "Reference" "C624" (at 346.71 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "C" (at 346.71 45.72 0)
@@ -2758,7 +2758,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C424") (unit 1)
+          (reference "C624") (unit 1)
         )
       )
     )
@@ -2767,7 +2767,7 @@
   (symbol (lib_id "power:GND") (at 118.11 200.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 774e03c6-6383-4a4a-b80d-350897ce8ada)
-    (property "Reference" "#PWR0410" (at 118.11 207.01 0)
+    (property "Reference" "#PWR0610" (at 118.11 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.11 204.47 0)
@@ -2783,7 +2783,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0410") (unit 1)
+          (reference "#PWR0610") (unit 1)
         )
       )
     )
@@ -2792,7 +2792,7 @@
   (symbol (lib_id "power:GND") (at 116.84 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 80315331-e3d4-48b3-a21d-1be17e98d57d)
-    (property "Reference" "#PWR0409" (at 116.84 168.91 0)
+    (property "Reference" "#PWR0609" (at 116.84 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.84 166.37 0)
@@ -2808,7 +2808,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0409") (unit 1)
+          (reference "#PWR0609") (unit 1)
         )
       )
     )
@@ -2817,7 +2817,7 @@
   (symbol (lib_id "power:GND") (at 317.5 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83d6ab18-97f8-4f27-948c-4271daa0cc12)
-    (property "Reference" "#PWR0437" (at 317.5 55.88 0)
+    (property "Reference" "#PWR0637" (at 317.5 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 317.5 53.34 0)
@@ -2833,7 +2833,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0437") (unit 1)
+          (reference "#PWR0637") (unit 1)
         )
       )
     )
@@ -2842,7 +2842,7 @@
   (symbol (lib_id "power:GND") (at 156.21 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84847c3e-11f9-4289-9253-629579653e8c)
-    (property "Reference" "#PWR0424" (at 156.21 219.71 0)
+    (property "Reference" "#PWR0624" (at 156.21 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 156.21 218.44 0)
@@ -2858,7 +2858,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0424") (unit 1)
+          (reference "#PWR0624") (unit 1)
         )
       )
     )
@@ -2867,7 +2867,7 @@
   (symbol (lib_id "power:GND") (at 266.7 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 856a6530-bf5d-40e1-87fc-4569dc70bf07)
-    (property "Reference" "#PWR0432" (at 266.7 55.88 0)
+    (property "Reference" "#PWR0632" (at 266.7 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.7 53.34 0)
@@ -2883,7 +2883,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0432") (unit 1)
+          (reference "#PWR0632") (unit 1)
         )
       )
     )
@@ -2892,7 +2892,7 @@
   (symbol (lib_id "Device:R_US") (at 142.24 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8708df29-d332-4de9-bc27-09a8559428c6)
-    (property "Reference" "R404" (at 144.78 97.79 0)
+    (property "Reference" "R604" (at 144.78 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22k" (at 144.78 100.33 0)
@@ -2909,7 +2909,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "R404") (unit 1)
+          (reference "R604") (unit 1)
         )
       )
     )
@@ -2918,7 +2918,7 @@
   (symbol (lib_id "Device:C") (at 129.54 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 89b385dc-4302-4e49-9499-96c032a79d32)
-    (property "Reference" "C410" (at 133.35 156.21 0)
+    (property "Reference" "C610" (at 133.35 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 133.35 158.75 0)
@@ -2935,7 +2935,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C410") (unit 1)
+          (reference "C610") (unit 1)
         )
       )
     )
@@ -2944,7 +2944,7 @@
   (symbol (lib_id "Device:C") (at 166.37 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b908417-71d9-454c-b044-7c5103a0456d)
-    (property "Reference" "C415" (at 170.18 46.99 0)
+    (property "Reference" "C615" (at 170.18 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "C" (at 170.18 49.53 0)
@@ -2961,7 +2961,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C415") (unit 1)
+          (reference "C615") (unit 1)
         )
       )
     )
@@ -2970,7 +2970,7 @@
   (symbol (lib_id "power:GND") (at 129.54 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 90d25e5e-dbac-47f4-b229-e411326ed321)
-    (property "Reference" "#PWR0412" (at 129.54 100.33 0)
+    (property "Reference" "#PWR0612" (at 129.54 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 129.54 97.79 0)
@@ -2986,7 +2986,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0412") (unit 1)
+          (reference "#PWR0612") (unit 1)
         )
       )
     )
@@ -2995,7 +2995,7 @@
   (symbol (lib_id "Device:C") (at 317.5 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95aa1f84-68a3-4597-b01a-97e3334f4cf1)
-    (property "Reference" "C422" (at 321.31 43.18 0)
+    (property "Reference" "C622" (at 321.31 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 321.31 45.72 0)
@@ -3012,7 +3012,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C422") (unit 1)
+          (reference "C622") (unit 1)
         )
       )
     )
@@ -3021,7 +3021,7 @@
   (symbol (lib_id "power:GND") (at 142.24 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c0ef225-96f1-4e88-b094-9570cafe617d)
-    (property "Reference" "#PWR0416" (at 142.24 168.91 0)
+    (property "Reference" "#PWR0616" (at 142.24 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 166.37 0)
@@ -3037,7 +3037,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0416") (unit 1)
+          (reference "#PWR0616") (unit 1)
         )
       )
     )
@@ -3046,7 +3046,7 @@
   (symbol (lib_id "Device:C") (at 88.9 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a322d85a-a840-4d69-b681-807adbb3497a)
-    (property "Reference" "C403" (at 92.71 46.99 0)
+    (property "Reference" "C603" (at 92.71 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 92.71 49.53 0)
@@ -3063,7 +3063,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C403") (unit 1)
+          (reference "C603") (unit 1)
         )
       )
     )
@@ -3072,7 +3072,7 @@
   (symbol (lib_id "Device:C") (at 140.97 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a40a38f3-78a0-494e-a8cf-40ffd763843d)
-    (property "Reference" "C411" (at 144.78 46.99 0)
+    (property "Reference" "C611" (at 144.78 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 144.78 49.53 0)
@@ -3089,7 +3089,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C411") (unit 1)
+          (reference "C611") (unit 1)
         )
       )
     )
@@ -3098,7 +3098,7 @@
   (symbol (lib_id "power:GND") (at 167.64 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a48c4221-e993-48d3-b560-25e856e409fe)
-    (property "Reference" "#PWR0426" (at 167.64 168.91 0)
+    (property "Reference" "#PWR0626" (at 167.64 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.64 166.37 0)
@@ -3114,7 +3114,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0426") (unit 1)
+          (reference "#PWR0626") (unit 1)
         )
       )
     )
@@ -3123,7 +3123,7 @@
   (symbol (lib_id "Device:R_US") (at 129.54 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a624be7b-0248-47f5-a91b-2f25a976ff2e)
-    (property "Reference" "R403" (at 132.08 88.9 0)
+    (property "Reference" "R603" (at 132.08 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 132.08 91.44 0)
@@ -3140,7 +3140,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "R403") (unit 1)
+          (reference "R603") (unit 1)
         )
       )
     )
@@ -3149,7 +3149,7 @@
   (symbol (lib_id "Driver_LED:IS31FL3736") (at 180.34 204.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a951e066-c6e7-4daa-8b3b-bf2f193df2b0)
-    (property "Reference" "U402" (at 185.2828 234.95 0)
+    (property "Reference" "U602" (at 185.2828 234.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IS31FL3736" (at 185.2828 237.49 0)
@@ -3205,7 +3205,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "U402") (unit 1)
+          (reference "U602") (unit 1)
         )
       )
     )
@@ -3214,7 +3214,7 @@
   (symbol (lib_id "power:+5V") (at 356.87 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid affe37d2-279e-42ed-831a-35465500b6ab)
-    (property "Reference" "#PWR0444" (at 356.87 41.91 0)
+    (property "Reference" "#PWR0644" (at 356.87 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 356.87 33.02 0)
@@ -3230,7 +3230,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0444") (unit 1)
+          (reference "#PWR0644") (unit 1)
         )
       )
     )
@@ -3239,7 +3239,7 @@
   (symbol (lib_id "Device:C") (at 304.8 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba830f93-5554-4b06-9261-20dcc9421a46)
-    (property "Reference" "C421" (at 308.61 43.18 0)
+    (property "Reference" "C621" (at 308.61 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 308.61 45.72 0)
@@ -3256,7 +3256,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C421") (unit 1)
+          (reference "C621") (unit 1)
         )
       )
     )
@@ -3265,7 +3265,7 @@
   (symbol (lib_id "power:GND") (at 76.2 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bfba0e61-e133-468f-b678-b9c802ba9c04)
-    (property "Reference" "#PWR0401" (at 76.2 59.69 0)
+    (property "Reference" "#PWR0601" (at 76.2 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 57.15 0)
@@ -3281,7 +3281,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0401") (unit 1)
+          (reference "#PWR0601") (unit 1)
         )
       )
     )
@@ -3290,7 +3290,7 @@
   (symbol (lib_id "power:GND") (at 142.24 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca48db20-4a4b-4883-9532-6bf6ce68748f)
-    (property "Reference" "#PWR0415" (at 142.24 110.49 0)
+    (property "Reference" "#PWR0615" (at 142.24 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 109.22 0)
@@ -3306,7 +3306,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0415") (unit 1)
+          (reference "#PWR0615") (unit 1)
         )
       )
     )
@@ -3315,7 +3315,7 @@
   (symbol (lib_id "power:GND") (at 104.14 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d47a8b6c-6ec5-413b-977d-ac72e001232f)
-    (property "Reference" "#PWR0406" (at 104.14 97.79 0)
+    (property "Reference" "#PWR0606" (at 104.14 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 95.25 0)
@@ -3331,7 +3331,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0406") (unit 1)
+          (reference "#PWR0606") (unit 1)
         )
       )
     )
@@ -3340,7 +3340,7 @@
   (symbol (lib_id "Device:C") (at 76.2 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d85371bc-591e-452e-9d5e-7e5f025c9bf4)
-    (property "Reference" "C401" (at 80.01 46.99 0)
+    (property "Reference" "C601" (at 80.01 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 80.01 49.53 0)
@@ -3357,7 +3357,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C401") (unit 1)
+          (reference "C601") (unit 1)
         )
       )
     )
@@ -3366,7 +3366,7 @@
   (symbol (lib_id "Device:R_US") (at 104.14 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da4358c7-7e3f-47be-bea9-8380d6c698ca)
-    (property "Reference" "R401" (at 106.68 86.36 0)
+    (property "Reference" "R601" (at 106.68 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 106.68 88.9 0)
@@ -3383,7 +3383,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "R401") (unit 1)
+          (reference "R601") (unit 1)
         )
       )
     )
@@ -3392,7 +3392,7 @@
   (symbol (lib_id "Driver_LED:IS31FL3736") (at 355.6 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da88109a-cf3e-4651-ae56-63b8d2d674f4)
-    (property "Reference" "U403" (at 360.5428 121.92 0)
+    (property "Reference" "U603" (at 360.5428 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IS31FL3736" (at 360.5428 124.46 0)
@@ -3448,7 +3448,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "U403") (unit 1)
+          (reference "U603") (unit 1)
         )
       )
     )
@@ -3457,7 +3457,7 @@
   (symbol (lib_id "power:GND") (at 91.44 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd7ca58a-750d-48d7-bea5-9ef7b10159b7)
-    (property "Reference" "#PWR0404" (at 91.44 168.91 0)
+    (property "Reference" "#PWR0604" (at 91.44 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 166.37 0)
@@ -3473,7 +3473,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0404") (unit 1)
+          (reference "#PWR0604") (unit 1)
         )
       )
     )
@@ -3482,7 +3482,7 @@
   (symbol (lib_id "power:GND") (at 354.33 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid def22bb7-af5c-406b-822e-9614a240b511)
-    (property "Reference" "#PWR0443" (at 354.33 130.81 0)
+    (property "Reference" "#PWR0643" (at 354.33 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 354.33 129.54 0)
@@ -3498,7 +3498,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0443") (unit 1)
+          (reference "#PWR0643") (unit 1)
         )
       )
     )
@@ -3507,7 +3507,7 @@
   (symbol (lib_id "power:GND") (at 154.94 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e06d5f96-a92b-4688-bc09-bd8a4daecea1)
-    (property "Reference" "#PWR0421" (at 154.94 168.91 0)
+    (property "Reference" "#PWR0621" (at 154.94 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.94 166.37 0)
@@ -3523,7 +3523,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0421") (unit 1)
+          (reference "#PWR0621") (unit 1)
         )
       )
     )
@@ -3532,7 +3532,7 @@
   (symbol (lib_id "power:GND") (at 140.97 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e18c24e1-f8c6-49b3-a6a2-2b3219ece148)
-    (property "Reference" "#PWR0414" (at 140.97 59.69 0)
+    (property "Reference" "#PWR0614" (at 140.97 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.97 57.15 0)
@@ -3548,7 +3548,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0414") (unit 1)
+          (reference "#PWR0614") (unit 1)
         )
       )
     )
@@ -3557,7 +3557,7 @@
   (symbol (lib_id "power:GND") (at 153.67 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e42d6218-3c4b-498f-9785-3e0bbdf9165c)
-    (property "Reference" "#PWR0418" (at 153.67 59.69 0)
+    (property "Reference" "#PWR0618" (at 153.67 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 57.15 0)
@@ -3573,7 +3573,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0418") (unit 1)
+          (reference "#PWR0618") (unit 1)
         )
       )
     )
@@ -3582,7 +3582,7 @@
   (symbol (lib_id "Device:C") (at 104.14 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6418b00-4e9e-4ac2-96b7-a2a2ff43063f)
-    (property "Reference" "C406" (at 107.95 156.21 0)
+    (property "Reference" "C606" (at 107.95 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 107.95 158.75 0)
@@ -3599,7 +3599,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C406") (unit 1)
+          (reference "C606") (unit 1)
         )
       )
     )
@@ -3608,7 +3608,7 @@
   (symbol (lib_id "power:GND") (at 104.14 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e705ab06-916d-48f6-b900-40ef158f1d0d)
-    (property "Reference" "#PWR0407" (at 104.14 168.91 0)
+    (property "Reference" "#PWR0607" (at 104.14 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 166.37 0)
@@ -3624,7 +3624,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0407") (unit 1)
+          (reference "#PWR0607") (unit 1)
         )
       )
     )
@@ -3633,7 +3633,7 @@
   (symbol (lib_id "Device:R_US") (at 143.51 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8b7b878-6e92-41fb-a821-af655677a0ae)
-    (property "Reference" "R405" (at 146.05 207.01 0)
+    (property "Reference" "R605" (at 146.05 207.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22k" (at 146.05 209.55 0)
@@ -3650,7 +3650,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "R405") (unit 1)
+          (reference "R605") (unit 1)
         )
       )
     )
@@ -3659,7 +3659,7 @@
   (symbol (lib_id "Device:R_US") (at 318.77 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ebc13955-2625-492e-8f72-094dcda397a8)
-    (property "Reference" "R407" (at 321.31 93.98 0)
+    (property "Reference" "R607" (at 321.31 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22k" (at 321.31 96.52 0)
@@ -3676,7 +3676,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "R407") (unit 1)
+          (reference "R607") (unit 1)
         )
       )
     )
@@ -3685,7 +3685,7 @@
   (symbol (lib_id "Driver_LED:IS31FL3736") (at 179.07 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid edaba0ab-f934-46bb-8a11-364696d612c9)
-    (property "Reference" "U401" (at 184.0128 125.73 0)
+    (property "Reference" "U601" (at 184.0128 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IS31FL3736" (at 184.0128 128.27 0)
@@ -3741,7 +3741,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "U401") (unit 1)
+          (reference "U601") (unit 1)
         )
       )
     )
@@ -3750,7 +3750,7 @@
   (symbol (lib_id "power:GND") (at 179.07 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef8a76c2-037e-4e0c-9c03-0f5e52bb3008)
-    (property "Reference" "#PWR0428" (at 179.07 243.84 0)
+    (property "Reference" "#PWR0628" (at 179.07 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.07 242.57 0)
@@ -3766,7 +3766,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0428") (unit 1)
+          (reference "#PWR0628") (unit 1)
         )
       )
     )
@@ -3775,7 +3775,7 @@
   (symbol (lib_id "Device:C") (at 78.74 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2e18308-3e85-4b10-aaf3-f8bfc2bf9d32)
-    (property "Reference" "C402" (at 82.55 156.21 0)
+    (property "Reference" "C602" (at 82.55 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 82.55 158.75 0)
@@ -3792,7 +3792,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C402") (unit 1)
+          (reference "C602") (unit 1)
         )
       )
     )
@@ -3801,7 +3801,7 @@
   (symbol (lib_id "Device:C") (at 254 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f69919f3-743d-4c85-b08d-44a32598d79d)
-    (property "Reference" "C417" (at 257.81 43.18 0)
+    (property "Reference" "C617" (at 257.81 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 257.81 45.72 0)
@@ -3818,7 +3818,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C417") (unit 1)
+          (reference "C617") (unit 1)
         )
       )
     )
@@ -3827,7 +3827,7 @@
   (symbol (lib_id "Device:C") (at 330.2 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f7c8f091-c12c-4397-b071-5991c2c58d0c)
-    (property "Reference" "C423" (at 334.01 43.18 0)
+    (property "Reference" "C623" (at 334.01 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 334.01 45.72 0)
@@ -3844,7 +3844,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "C423") (unit 1)
+          (reference "C623") (unit 1)
         )
       )
     )
@@ -3853,7 +3853,7 @@
   (symbol (lib_id "power:GND") (at 143.51 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb2c7b41-e7a8-439c-bdca-831f991ae934)
-    (property "Reference" "#PWR0417" (at 143.51 219.71 0)
+    (property "Reference" "#PWR0617" (at 143.51 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 218.44 0)
@@ -3869,7 +3869,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0417") (unit 1)
+          (reference "#PWR0617") (unit 1)
         )
       )
     )
@@ -3878,7 +3878,7 @@
   (symbol (lib_id "power:GND") (at 279.4 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fbeec726-c6e3-4f71-a24e-ef4f282fdaa2)
-    (property "Reference" "#PWR0433" (at 279.4 55.88 0)
+    (property "Reference" "#PWR0633" (at 279.4 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 279.4 53.34 0)
@@ -3894,7 +3894,7 @@
     (instances
       (project "ErgoDUE"
         (path "/4c935f39-219c-4006-ade5-f2ff1277cb0d/6e2c7544-ed78-48bf-a3eb-79c88927a6fd"
-          (reference "#PWR0433") (unit 1)
+          (reference "#PWR0633") (unit 1)
         )
       )
     )
