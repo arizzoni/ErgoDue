@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+/home/air/Projects/ErgoDue/src/CMakeFiles/ELF2UF2Build
+/home/air/Projects/ErgoDue/src/CMakeFiles/ELF2UF2Build.rule
+/home/air/Projects/ErgoDue/src/CMakeFiles/ELF2UF2Build-complete.rule
+/home/air/Projects/ErgoDue/src/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+/home/air/Projects/ErgoDue/src/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+/home/air/Projects/ErgoDue/src/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+/home/air/Projects/ErgoDue/src/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+/home/air/Projects/ErgoDue/src/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+/home/air/Projects/ErgoDue/src/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+/home/air/Projects/ErgoDue/src/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
