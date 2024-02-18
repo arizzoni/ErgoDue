@@ -4732,7 +4732,7 @@
     (property "Reference" "C501" (at 139.7 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (at 139.7 110.49 0)
+    (property "Value" "100n" (at 139.7 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 136.8552 113.03 0)
